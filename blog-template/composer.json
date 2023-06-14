@@ -1,0 +1,6 @@
+{
+    "name": "Blog-master",
+    "require": {
+      "popper.js": "version"
+    }
+  }
