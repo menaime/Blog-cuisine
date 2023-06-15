@@ -21,7 +21,7 @@ $faq = $db_handle->runQuery($query);
 
 if(empty($_GET["id"])) {
 $_GET["id"] = $db_handle->numRows($sql);
-$naslov = $_GET["cat_title"];
+//$naslov = $_GET["cat_title"];
  
                  
 
@@ -63,7 +63,7 @@ $output = '';
                 </script>
                 <?php   
                 $variablephp="ajderadi";
-                $variablephp = "<script>document.write(no_of_rows)</script>";
+                //$variablephp = "<script>document.write(no_of_rows)</script>";
                 echo $variablephp;
                    ?>
                   <input class="form-control" type="text" placeholder="Search" id="myInput" aria-label="Search">
@@ -82,8 +82,8 @@ foreach($faq as $k=>$v)
 
 
   <?php
-	echo "test<br>";
-	echo $faq[$k]["cat_title"] . "<br>";
+	//echo "test<br>";
+	//echo $faq[$k]["cat_title"] . "<br>";
  			
 }
 

@@ -61,8 +61,8 @@
                   <input type="text" class="form-control" id="post_title" name="post_title" placeholder="Enter Title Here" required="">
                 </div>
                 <script>
-function myFunction() {
-  alert("Hello! I am an alert box!");
+//function myFunction() {
+  //alert("Hello! I am an alert box!");
 }
 </script>
                 <div class="row">

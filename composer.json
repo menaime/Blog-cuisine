@@ -1,0 +1,16 @@
+{
+    "name": "menaimetaghzou/blog-master",
+    "description": "blog-cuisine",
+    "type": "project",
+    "require": {
+        "no": "0",
+        "vendor": "no"
+    },
+    "license": "n",
+    "authors": [
+        {
+            "name": "taghzou menaime"
+        }
+    ],
+    "minimum-stability": "stable"
+}

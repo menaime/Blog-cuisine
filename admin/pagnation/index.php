@@ -1,3 +1,4 @@
+
 <HTML>
 <HEAD>
 <TITLE>AJAX Pagination with PHP</TITLE>

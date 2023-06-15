@@ -14,7 +14,7 @@
 
         if (!$result_sql_select_users_login)
             {
-              die("Error description:" . mysqli_error());
+              die("Error description:" . mysqli_error($dbconnection));
             }
 
         while ($row_user_login = mysqli_fetch_assoc( $result_sql_select_users_login))

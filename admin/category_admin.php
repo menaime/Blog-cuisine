@@ -16,11 +16,11 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-      Dashboard
-        <small>Panneau de controle</small>
+        Dashboard
+        <small>Control panel</small>
       </h1>
       <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Accueil</a></li>
+        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
         <li class="active">Dashboard</li>
       </ol>
     </section>
@@ -81,15 +81,15 @@
             <tr>
                <th>
                  <select class="form-control" id="group_options" name="group_options">
-                    <option value="" disabled selected>Group</option>
-                    <option value="delete" >Effacer</option>
-                    <option value="1">Publier</option>
-                    <option value="0">dépublier</option>
+                    <option value="" disabled selected>Group action</option>
+                    <option value="delete" >Delete</option>
+                    <option value="1">Publish</option>
+                    <option value="0">Unpublish</option>
             </select>
                </th>
                <th>&nbsp;</th>
                <th>
-                  <button class="btn btn-search" type="submit" name="applyed"> Appliquer</button>
+                  <button class="btn btn-search" type="submit" name="applyed"> Apply</button>
                </th>
 
                

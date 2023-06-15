@@ -23,7 +23,7 @@
         echo "testiram";
         if (!$sql_add_comment)
                 {
-                  die("Error description:" . mysqli_error());
+                  die("Error description:" . mysqli_error($dbconnection));
                 }
                 else
                 {
